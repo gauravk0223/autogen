@@ -1,0 +1,4 @@
+dotenv
+autogen-agentchat
+autogen-core
+autogen-ext
