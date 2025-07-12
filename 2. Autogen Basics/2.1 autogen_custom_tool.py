@@ -39,7 +39,7 @@ assistant = AssistantAgent(
 ) 
 
 async def main():
-    result = await assistant.run(task="Reverse the folloung string: Hi, My name is Gaurav")
+    result = await assistant.run(task="Reverse the following string: Hi, My name is Gaurav")
     ##print(result)
     print(result.messages[-1].content)
 
