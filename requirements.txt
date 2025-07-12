@@ -6,3 +6,5 @@ openai
 tiktoken
 ollama
 autogen-ext[http-tool]
+langchain-community
+langchain
