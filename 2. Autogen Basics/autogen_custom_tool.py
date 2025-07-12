@@ -39,14 +39,10 @@ assistant = AssistantAgent(
 ) 
 
 async def main():
-    
-    print("In main")
-
     result = await assistant.run(task="Reverse the folloung string: Hi, My name is Gaurav")
     ##print(result)
     print(result.messages[-1].content)
 
 if __name__ == "__main__":
-    print("Main Module")
     asyncio.run(main())
 
