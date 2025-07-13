@@ -46,7 +46,7 @@ search_agent=AssistantAgent(
 
 async def run_serper_search():
     """Run the search agent """
-    query="Who won the IPL in 2025?"
+    query="Who won the IPL in 2008?"
     result = await search_agent.run(task=query)
     
     print(result.messages[-1].content)
